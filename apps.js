@@ -36,5 +36,21 @@ function user(){
 }
 
     function results (cpTotal, huTotal){
-        if ( ( cpTotal < huTotal) && cpTotal <=20) && (huTotal<= 20)
+        if ( ( cpTotal < huTotal) && cpTotal <=20) && (huTotal<= 20){
+            alert(`Winner Winner Chicken Dinner. The computer has went over 20.`)
+        }else if ( (cpTotal > huTotal) && (cpTotal<= 20) && (huTotal<=20) ) {
+            alert(`Computer wins this time...`)
+        }else if ( (cpTotal == huTotal) && (cpTotal <= 20) && (huTotal <=20) ){
+            alert(`There has been a tie on the playing grounds`)
+        }
     }
+
+    alert(`Final score for the computer is ${cpTotal}.\n\n\n You have a final score of ${huTotal}.`)
+}
+
+function pro() {
+    randomNum()
+    results(comp(). user())
+}
+
+program()

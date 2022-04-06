@@ -46,7 +46,7 @@ function user(){
     }
 
     alert(`Final score for the computer is ${cpTotal}.\n\n\n You have a final score of ${huTotal}.`)
-}
+
 
 function pro() {
     randomNum()
